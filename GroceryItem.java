@@ -149,7 +149,7 @@ class GroceryItem implements Serializable{
 
             case 1012:
                 this.itemCode = itemCode;
-                itemName = "Milk pouder";
+                itemName = "Milk powder";
                 price = 1045.0;
                 weight = 400.0;
                 manufactureDate = "17/02/2024";
@@ -171,7 +171,7 @@ class GroceryItem implements Serializable{
             
             case 1014:
                 this.itemCode = itemCode;
-                itemName = "Sampoo";
+                itemName = "Shampoo";
                 price = 450.0;
                 weight = 300.0;
                 manufactureDate = "14/01/2024";

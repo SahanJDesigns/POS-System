@@ -1,8 +1,6 @@
-import java.io.EOFException;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class Customer implements Serializable{
     private String name;

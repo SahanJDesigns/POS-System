@@ -101,9 +101,6 @@ public class POS {
                 bill = new Bill();
             }
             else if(billChoice == 2){
-                break;
-            }
-            else{
                 System.out.println("Enter BillID");
                 int billID = parseInt(scn.nextLine());
                 try {
@@ -113,6 +110,9 @@ public class POS {
                 } catch (ClassNotFoundException e) {
                     throw new RuntimeException(e);
                 }
+            }
+            else{
+                break;
             }
 
             System.out.println("Enter the name of the customer");
